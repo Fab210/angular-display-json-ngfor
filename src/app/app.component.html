@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<ul *ngFor="let item of dataList; let i = index">
+  <li >
+    {{i}} {{item.network}}  
+  </li>
+  <li>
+    {{item.url}}
+  </li>
+  <li>{{item.username}}</li>
+</ul>
